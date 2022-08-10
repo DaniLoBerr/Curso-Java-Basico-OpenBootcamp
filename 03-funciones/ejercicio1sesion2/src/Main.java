@@ -1,13 +1,18 @@
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
 
-        double precioConIVA = getPrice(50.00);
+        Scanner damePrecio = new Scanner(System.in);
+        System.out.print("Introduzca el precio del artículo: ");
+        double precioDado = damePrecio.nextDouble();
+        double precioConIVA = devolverPrecioConIVA(precioDado);
         System.out.println("El precio del artículo + IVA es: " + precioConIVA);
     }
-
-    static double getPrice(double precio) {
-        double IVA = 2.10;
-        return precio + IVA;
+    static double devolverPrecioConIVA(double precioDado) {
+        double IVA = precioDado * 0.21;
+        double precioConIVA = precioDado + IVA;
+        return precioConIVA;
     }
 }
