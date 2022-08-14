@@ -8,11 +8,11 @@ public class Main {
         System.out.print("Introduzca el precio del artículo: ");
         double precioDado = damePrecio.nextDouble();
         double precioConIVA = devolverPrecioConIVA(precioDado);
-        System.out.println("El precio del artículo + IVA es: " + precioConIVA);
+        System.out.println("El precio del artículo más IVA es: " + precioConIVA);
     }
     static double devolverPrecioConIVA(double precioDado) {
-        double IVA = precioDado * 0.21;
-        double precioConIVA = precioDado + IVA;
+        double iva = precioDado * 0.21;
+        double precioConIVA = precioDado + iva;
         return precioConIVA;
     }
 }
