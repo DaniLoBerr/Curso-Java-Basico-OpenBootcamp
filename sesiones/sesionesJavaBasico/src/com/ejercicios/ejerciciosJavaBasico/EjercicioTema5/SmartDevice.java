@@ -16,4 +16,13 @@ public class SmartDevice {
         this.display = display;
     }
 
+    @Override
+    public String toString() {
+        return "SmartDevice: {" +
+                "weight=" + weight +
+                ", color='" + color + '\'' +
+                ", batteryLife=" + batteryLife +
+                ", display=" + display +
+                '}';
+    }
 }

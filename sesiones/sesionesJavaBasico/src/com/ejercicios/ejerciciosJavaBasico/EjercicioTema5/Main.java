@@ -12,38 +12,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-        SmartDevice dispositivoInteligente = new SmartDevice
-                (20.7, "white", 8, 5.7);
-        System.out.println(
-                dispositivoInteligente.weight
-                        + dispositivoInteligente.color
-                        + dispositivoInteligente.batteryLife
-                        + dispositivoInteligente.display
-        );
+        SmartDevice dispositivoInteligente = new SmartDevice(20.7, "white", 8, 5.7);
 
-        SmartPhone movilInteligente = new SmartPhone
-                (18.4, "pink", 6, 6.3, true, "A15", 27.5);
-        System.out.println(
-                movilInteligente.weight
-                + movilInteligente.color
-                + movilInteligente.batteryLife
-                + movilInteligente.display
-                + movilInteligente.faceID
-                + movilInteligente.chip
-                + movilInteligente.cameraMP
-        );
+        SmartPhone movilInteligente = new SmartPhone(18.4, "pink", 6, 6.3, true, "A15", 27.5);
 
-        SmartWatch relojInteligente = new SmartWatch
-                (9.6, "black", 17, 2.8, "yellow", true, false);
-        System.out.println(
-                relojInteligente.weight
-                        + relojInteligente.color
-                        + relojInteligente.batteryLife
-                        + relojInteligente.display
-                        + relojInteligente.colorBand
-                        + relojInteligente.submersible
-                        + relojInteligente.ecgApp
-        );
+        SmartWatch relojInteligente = new SmartWatch(9.6, "black", 17, 2.8, "yellow", true, false);
 
+        System.out.println(dispositivoInteligente + "\n" + movilInteligente + "\n" + relojInteligente);
     }
 }
