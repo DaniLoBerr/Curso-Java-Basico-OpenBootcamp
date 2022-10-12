@@ -1,0 +1,13 @@
+LISTA DE COMPETENCIAS QUE SE ADQUIEREN EN EL CICLO FORMATIVO DE ADMINISTRACIÓN DE SISTEMAS INFORMÁTICOS EN RED:
+
+- Configurar y explotar sistemas informáticos.
+- Configurar y gestionar un sistema gestor de bases de datos.
+- Configurar y gestionar la base de datos.
+- Administrar los dispositivos hardware del sistema.
+- Instalar, configurar y administrar el software de base y de aplicación del sistema.
+- Asegurar equipos informáticos.
+- Instalar, configurar y administrar el software para gestionar un entorno web.
+- Instalar, configurar y administrar servicios de mensajería electrónica.
+- Instalar, configurar y administrar servicios de transferencia de archivos y multimedia.
+- Gestionar servicios en el sistema informático.
+

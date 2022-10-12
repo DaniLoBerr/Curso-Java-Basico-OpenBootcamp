@@ -1,0 +1,18 @@
+LISTA DE MÓDULOS QUE SE IMPARTEN EL CICLO FORMATIVO DE DESARROLLO DE APLICACIONES MULTIPLATAFORMA:
+
+- Sistemas informáticos.
+- Bases de Datos.
+- Programación.
+- Lenguajes de marcas y sistemas de gestión de información.
+- Entornos de desarrollo.
+- Acceso a datos.
+- Desarrollo de interfaces.
+- Programación multimedia y dispositivos móviles.
+- Programación de servicios y procesos.
+- Sistemas de gestión empresarial.
+- Proyecto de desarrollo de aplicaciones multiplataforma.
+- Formación y orientación laboral.
+- Empresa e iniciativa emprendedora.
+- Formación en centros de trabajo.
+- Lengua Extranjera de uso profesional.
+

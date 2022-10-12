@@ -1,0 +1,18 @@
+LISTA DE MÓDULOS QUE SE IMPARTEN EL CICLO FORMATIVO DE ADMINISTRACIÓN DE SISTEMAS INFORMÁTICOS EN RED:
+
+- Implantación de sistemas operativos.
+- Planificación y administración de redes.
+- Fundamentos de hardware.
+- Gestión de bases de datos.
+- Lenguajes de marcas y sistemas de gestión de información.
+- Administración de sistemas operativos.
+- Servicios de red e Internet.
+- Implantación de aplicaciones web.
+- Administración de sistemas gestores de bases de datos.
+- Seguridad y alta disponibilidad.
+- Proyecto de administración de sistemas informáticos en red.
+- Formación y orientación laboral.
+- Empresa e iniciativa emprendedora.
+- Formación en centros de trabajo.
+- Lengua Extranjera para uso profesional.
+

@@ -1,0 +1,17 @@
+LISTA DE MÓDULOS QUE SE IMPARTEN EL CICLO FORMATIVO DE DESARROLLO DE APLICACIONES WEB:
+
+- Sistemas informáticos.
+- Bases de datos.
+- Programación.
+- Lenguajes de marcas y sistemas de gestión de información.
+- Entornos de desarrollo.
+- Desarrollo web en entorno cliente.
+- Desarrollo web en entorno servidor.
+- Despliegue de aplicaciones web.
+- Diseño de interfaces WEB.
+- Proyecto de desarrollo de aplicaciones web
+- Formación y orientación laboral.
+- Empresa e iniciativa emprendedora.
+- Formación en centros de trabajo.
+- Lengua extranjera para uso profesional.
+

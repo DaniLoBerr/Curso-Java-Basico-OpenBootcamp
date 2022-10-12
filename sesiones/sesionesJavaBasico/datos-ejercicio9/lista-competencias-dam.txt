@@ -1,0 +1,11 @@
+LISTA DE COMPETENCIAS QUE SE ADQUIEREN EN EL CICLO FORMATIVO DE DESARROLLO DE APLICACIONES MULTIPLATAFORMA:
+
+- Configurar y explotar sistemas informáticos.
+- Programar bases de datos relacionales.
+- Desarrollar componentes software en lenguajes de programación estructurada.
+- Configurar y explotar sistemas informáticos.
+- Programar bases de datos relacionales.
+- Desarrollar componentes software en lenguajes de programación orientados a objetos.
+- Instalar y configurar sistemas de planificación de recursos empresariales y de gestión de relaciones con clientes.
+- Crear elementos software para la gestión del sistema y sus recursos.
+

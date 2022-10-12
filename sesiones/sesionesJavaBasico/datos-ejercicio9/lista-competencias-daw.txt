@@ -1,0 +1,10 @@
+LISTA DE COMPETENCIAS QUE SE ADQUIEREN EN EL CICLO FORMATIVO DE DESARROLLO DE APLICACIONES WEB:
+
+- Desarrollar elementos software en el entorno cliente.
+- Desarrollar elementos software en el entorno servidor.
+- Implementar, verificar y documentar aplicaciones web en entornos internet, intranet y extranet.
+- Configurar y explotar sistemas informáticos.
+- Programar bases de datos relacionales.
+- Configurar y explotar sistemas informáticos.
+- Programar bases de datos relacionales.
+
