@@ -18,6 +18,12 @@ public class _04VariablesYTiposDeDatos {
 
         //Tipos de datos primitivos:
 
+            var varible = "hola";
+            /*
+            Declarando una variable de esta manera, el compilador es el que decide
+            en función de su contenido de qué tipo de dato será la variable.
+             */
+
             // Enteros
             byte number1 = 1;
             short number2 = 2;
