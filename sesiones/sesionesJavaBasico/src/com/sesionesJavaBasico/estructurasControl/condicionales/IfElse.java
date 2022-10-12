@@ -8,8 +8,10 @@ public class IfElse {
      * @param args
      */
     public static void main(String[] args) {
+
         int edad = 17;
         boolean esMayor = edad >= 18;
+
         if(esMayor/*esto sería equivalente a poner: if(esMayor==true)*/) {
             // Si true, entra aquí
             System.out.println("Es mayor de edad");
@@ -17,5 +19,13 @@ public class IfElse {
             //Si false, entre aquí
             System.out.println("No es mayor de edad");
         }
+
+        /**
+         * OPERADOR TERNARIO
+         *
+         * Es otra forma de escribir la estructura de If/Else:
+         *
+         * System.out.println(esMayor ? "Es mayor de edad" : "Es menor de edad");
+         */
     }
 }
