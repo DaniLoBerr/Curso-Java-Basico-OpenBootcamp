@@ -31,27 +31,33 @@ individual como el total a pagar si viaja más de una persona.
         double bilbao = 222.27;
         double madrid = 466.20;
 
+        final double DISTANCIA_ADICIONAL = 200;
+        final double RECARGO_KM_ADICIONAL = 0.03;
+        final double DESCUENTO_TRAYECTO_400KM = 0.15;
+        final int MINIMO_PERSONAS_NUMEROSAS = 3;
+        final double DESCUENTO_PERSONAS_3 = 0.1;
+
         if (destinoSeleccionado.equals("Madrid") || destinoSeleccionado.equals("madrid")) {
-                    double kmAdicional = (madrid-200)*0.03;
-                    double descuento400Km = kmAdicional * 0.15;
+                    double kmAdicional = (madrid - DISTANCIA_ADICIONAL) * RECARGO_KM_ADICIONAL;
+                    double descuento400Km = kmAdicional * DESCUENTO_TRAYECTO_400KM;
                     double precioBilleteMadrid = precioViaje + kmAdicional + descuento400Km;
-                    if (viajerosSeleccionados >= 3) {
-                        precioBilleteMadrid -= viajerosSeleccionados * (precioBilleteMadrid*0.1);
+                    if (viajerosSeleccionados >= MINIMO_PERSONAS_NUMEROSAS) {
+                        precioBilleteMadrid -= viajerosSeleccionados * (precioBilleteMadrid * DESCUENTO_PERSONAS_3);
                     }
             System.out.println("El precio a pagar es de: " + precioBilleteMadrid);
 
         } else if (destinoSeleccionado.equals("Bilbao") || destinoSeleccionado.equals("bilbao")) {
-            double kmAdicional = (bilbao-200)*0.03;
+            double kmAdicional = (bilbao - DISTANCIA_ADICIONAL) * RECARGO_KM_ADICIONAL;
             double precioBilleteBilbao = precioViaje + kmAdicional;
-            if (viajerosSeleccionados >= 3) {
-                precioBilleteBilbao -= viajerosSeleccionados * (precioBilleteBilbao*0.1);
+            if (viajerosSeleccionados >= MINIMO_PERSONAS_NUMEROSAS) {
+                precioBilleteBilbao -= viajerosSeleccionados * (precioBilleteBilbao * DESCUENTO_PERSONAS_3);
             }
             System.out.println("El precio a pagar es de: " + precioBilleteBilbao);
 
         } else if (destinoSeleccionado.equals("Santander") || destinoSeleccionado.equals("santander")) {
             double precioBilleteSantander = precioViaje;
-            if (viajerosSeleccionados >= 3) {
-                precioBilleteSantander -= viajerosSeleccionados * (precioBilleteSantander*0.1);
+            if (viajerosSeleccionados >= MINIMO_PERSONAS_NUMEROSAS) {
+                precioBilleteSantander -= viajerosSeleccionados * (precioBilleteSantander * DESCUENTO_PERSONAS_3);
             }
             System.out.println("El precio a pagar es de: " + precioBilleteSantander);
 
